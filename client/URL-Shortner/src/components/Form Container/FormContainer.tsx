@@ -25,9 +25,10 @@ const FormContainer: React.FunctionComponent<IFormContainerProps> = (props) => {
         <div className='container mx-auto p-2'>
             <div className='bg-banner my-8 rounded-xl bg-cover bg-center'>
               <div className='w-full h-full rounded-xl p-20 backdrop-brightness-50'>
-                <h2 className='text-white text-4xl text-center pb-4'>URL Shortner</h2>
-                <p className='text-white text-center text-xl pb-4 font-extralight'>Paste Your Untidy Link to Shorten It!</p>
-                <p className='text-white text-center pb-4 text-sm font-thin'>Free Tool Shorten a URL or Reduce Link, Use Our URL Shortner to Create a Shortened & Neat</p>
+                <h2 className='text-white text-4xl text-center pb-4'>URL Shortener</h2>
+                <p className='text-white text-center text-xl pb-4 font-extralight'>Paste the URL to be shortened</p>
+                <p className='text-white text-center pb-4 text-sm font-thin'>Shrink Link is a free tool to shorten URLs and generate short links
+                Shrink Link allows to create a shortened link making it easy to share</p>
                 <form onSubmit={handleSubmit}>
                   <div className='flex'>
                     <div className='relative w-full'>

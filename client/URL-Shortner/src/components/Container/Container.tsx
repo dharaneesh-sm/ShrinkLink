@@ -4,6 +4,7 @@ import { UrlData } from '../interface/UrlData';
 import axios from 'axios';
 import { serverUrl } from '../../helpers/constants';
 import DataTable from '../Data Table/DataTable';
+import Features from '../Features/Features';
 
 interface IContainerProps {}
 
@@ -30,6 +31,7 @@ const Container: React.FunctionComponent<IContainerProps> = () => {
     <div>
         <FormContainer updateReloadState={updateReloadState} />
         <DataTable updateReloadState={updateReloadState} data={data}/>
+        <Features />
     </div>
   );
 };
